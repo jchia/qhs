@@ -2,7 +2,5 @@ flags: {}
 packages:
   - '.'
 extra-deps:
-  - sqlite-simple-0.4.18.0
-  - direct-sqlite-2.3.26
   - simple-sql-parser-0.6.0
-resolver: lts-16.3
+resolver: https://raw.githubusercontent.com/jchia/stack-resolvers/master/resolver-20200831.yaml
